@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official personal website of Prince Parsana. Explore his profile, lifestyle, photo gallery and social media.">
+  <meta name="keywords" content="Prince Parsana, Prince Parsana Instagram, prince_parsana7, princee_pvt8">
+  <meta name="author" content="Prince Parsana">
+  <meta property="og:title" content="Prince Parsana | Official Website">
+  <meta property="og:description" content="Personal profile, lifestyle and social links of Prince Parsana.">
+  <meta property="og:image" content="assets/prince-jeep-night.jpg">
+  <title>Prince Parsana | Official Website</title>
+  <style>
+    :root { --gold:#d8b56a; --bg:#090909; --panel:#151515; --muted:#b9b4aa; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:#f7f3eb; font-family:Arial,Helvetica,sans-serif; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1100px,92%); margin:auto; }
+    header { position:sticky; top:0; z-index:5; background:rgba(8,8,8,.92); border-bottom:1px solid #29231a; backdrop-filter:blur(10px); }
+    nav { min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    .brand { color:var(--gold); font-weight:800; letter-spacing:3px; }
+    nav a { font-size:13px; color:#ddd; margin-left:20px; }
+    nav a:hover,.gold { color:var(--gold); }
+    .hero { min-height:590px; display:grid; grid-template-columns:1.05fr .95fr; align-items:center; gap:45px; padding:65px 0; }
+    .eyebrow { color:var(--gold); letter-spacing:4px; text-transform:uppercase; font-size:12px; }
+    h1 { font-size:clamp(44px,7vw,78px); line-height:.98; margin:18px 0; letter-spacing:-2px; }
+    h1 span { color:var(--gold); }
+    .lead { color:var(--muted); line-height:1.8; max-width:520px; }
+    .buttons { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
+    .btn { display:inline-block; border:1px solid var(--gold); padding:13px 19px; border-radius:3px; font-size:13px; font-weight:bold; }
+    .btn.primary { background:var(--gold); color:#111; }
+    .hero-photo { height:480px; width:100%; object-fit:cover; object-position:center 35%; border:1px solid #5d4b2a; box-shadow:16px 16px 0 #241d11; }
+    section { padding:70px 0; border-top:1px solid #211e19; }
+    h2 { font-size:32px; margin:0 0 18px; }
+    .about { color:var(--muted); line-height:1.9; max-width:760px; }
+    .cards { display:grid; grid-template-columns:repeat(2,1fr); gap:22px; margin-top:28px; }
+    .card { background:var(--panel); border:1px solid #30291d; padding:24px; }
+    .card h3 { color:var(--gold); margin:0 0 10px; }
+    .card p { color:var(--muted); line-height:1.6; }
+    .gallery { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; margin-top:25px; }
+    .gallery img { width:100%; height:430px; object-fit:cover; border:1px solid #4a3b23; }
+    .socials { display:flex; flex-wrap:wrap; gap:14px; margin-top:24px; }
+    footer { border-top:1px solid #29231a; padding:28px 0; color:#928b7e; font-size:12px; text-align:center; }
+    @media(max-width:720px) {
+      nav { align-items:flex-start; padding:18px 0; flex-direction:column; }
+      nav a { margin:0 14px 0 0; }
+      .hero { grid-template-columns:1fr; padding:45px 0; }
+      .hero-photo { height:420px; }
+      .cards,.gallery { grid-template-columns:1fr; }
+      .gallery img { height:auto; max-height:560px; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#">PRINCE PARSANA</a>
+      <div><a href="#about">ABOUT</a><a href="#gallery">GALLERY</a><a href="#social">SOCIALS</a></div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <div>
+      <div class="eyebrow">Personal Website</div>
+      <h1>PRINCE<br><span>PARSANA</span></h1>
+      <p class="lead">Welcome to my personal space. A place to explore my profile, lifestyle, photos and social media.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#about">EXPLORE PROFILE</a>
+        <a class="btn" href="https://www.instagram.com/prince_parsana7/" target="_blank" rel="noopener">INSTAGRAM</a>
+      </div>
+    </div>
+    <img class="hero-photo" src="assets/prince-jeep-night.jpg" alt="Prince Parsana beside a Jeep at night">
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="eyebrow">A little about me</div>
+      <h2>About <span class="gold">Prince Parsana</span></h2>
+      <p class="about">I’m Prince Parsana. This website is my official personal corner on the web, bringing my public social profiles and selected photos together in one place. Follow my journey and connect through my social accounts below.</p>
+      <div class="cards">
+        <div class="card"><h3>Personality</h3><p>Confidence, individuality and staying true to myself.</p></div>
+        <div class="card"><h3>Lifestyle</h3><p>Cars, moments, travel memories and everyday snapshots.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <div class="eyebrow">Selected moments</div>
+      <h2>Photo <span class="gold">Gallery</span></h2>
+      <div class="gallery">
+        <img src="assets/prince-car-outdoor.jpg" alt="Prince Parsana outdoors beside a car">
+        <img src="assets/prince-jeep-night.jpg" alt="Prince Parsana beside a Jeep at night">
+      </div>
+    </div>
+  </section>
+
+  <section id="social">
+    <div class="wrap">
+      <div class="eyebrow">Find me online</div>
+      <h2>Social <span class="gold">Profiles</span></h2>
+      <p class="about">Follow my public and personal Instagram accounts.</p>
+      <div class="socials">
+        <a class="btn primary" href="https://www.instagram.com/prince_parsana7/" target="_blank" rel="noopener">@prince_parsana7</a>
+        <a class="btn" href="https://www.instagram.com/princee_pvt8/" target="_blank" rel="noopener">@princee_pvt8</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Prince Parsana. Personal website.</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
